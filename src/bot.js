@@ -5,7 +5,7 @@ var spotify_web_api_node_1 = require("spotify-web-api-node");
 // Configura las credenciales de tu aplicación
 var spotifyApi = new spotify_web_api_node_1.SpotifyWebApi({
     clientId: '[YOU CLIENT ID SPOTIFY ]',
-    clientSecret: '[YOu CLIENTSECRET ID SPOTIFY]',
+    clientSecret: '[YOU CLIENTSECRET ID SPOTIFY]',
     redirectUri: 'http://localhost:5173'
 });
 // Obtén un token de acceso utilizando el flujo de autorización de "Autorización de cliente de credenciales"
